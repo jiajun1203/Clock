@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "ClockView.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    ClockView *clockV = [[ClockView alloc]initWithFrame:CGRectMake(self.view.frame.size.width/2.0-150, self.view.frame.size.height/2.0-150, 300, 300)];
+    [self.view addSubview:clockV];
 }
 
 

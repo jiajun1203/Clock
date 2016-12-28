@@ -15,6 +15,9 @@
 		FF29B4861E13F1C400BE87B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF29B4841E13F1C400BE87B7 /* LaunchScreen.storyboard */; };
 		FF29B4911E13F1C400BE87B7 /* TestClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF29B4901E13F1C400BE87B7 /* TestClockTests.m */; };
 		FF29B49C1E13F1C400BE87B7 /* TestClockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF29B49B1E13F1C400BE87B7 /* TestClockUITests.m */; };
+		FF29B4AB1E13F1E300BE87B7 /* ClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF29B4AA1E13F1E300BE87B7 /* ClockView.m */; };
+		FF29B4AE1E14031300BE87B7 /* 000.png in Resources */ = {isa = PBXBuildFile; fileRef = FF29B4AC1E14031300BE87B7 /* 000.png */; };
+		FF29B4AF1E14031300BE87B7 /* pointer.png in Resources */ = {isa = PBXBuildFile; fileRef = FF29B4AD1E14031300BE87B7 /* pointer.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		FF29B4971E13F1C400BE87B7 /* TestClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF29B49B1E13F1C400BE87B7 /* TestClockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestClockUITests.m; sourceTree = "<group>"; };
 		FF29B49D1E13F1C400BE87B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF29B4A91E13F1E300BE87B7 /* ClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockView.h; sourceTree = "<group>"; };
+		FF29B4AA1E13F1E300BE87B7 /* ClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockView.m; sourceTree = "<group>"; };
+		FF29B4AC1E14031300BE87B7 /* 000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 000.png; sourceTree = "<group>"; };
+		FF29B4AD1E14031300BE87B7 /* pointer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pointer.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +108,14 @@
 		FF29B4751E13F1C400BE87B7 /* TestClock */ = {
 			isa = PBXGroup;
 			children = (
+				FF29B4AC1E14031300BE87B7 /* 000.png */,
+				FF29B4AD1E14031300BE87B7 /* pointer.png */,
 				FF29B4791E13F1C400BE87B7 /* AppDelegate.h */,
 				FF29B47A1E13F1C400BE87B7 /* AppDelegate.m */,
 				FF29B47C1E13F1C400BE87B7 /* ViewController.h */,
 				FF29B47D1E13F1C400BE87B7 /* ViewController.m */,
+				FF29B4A91E13F1E300BE87B7 /* ClockView.h */,
+				FF29B4AA1E13F1E300BE87B7 /* ClockView.m */,
 				FF29B47F1E13F1C400BE87B7 /* Main.storyboard */,
 				FF29B4821E13F1C400BE87B7 /* Assets.xcassets */,
 				FF29B4841E13F1C400BE87B7 /* LaunchScreen.storyboard */,
@@ -248,7 +259,9 @@
 			files = (
 				FF29B4861E13F1C400BE87B7 /* LaunchScreen.storyboard in Resources */,
 				FF29B4831E13F1C400BE87B7 /* Assets.xcassets in Resources */,
+				FF29B4AE1E14031300BE87B7 /* 000.png in Resources */,
 				FF29B4811E13F1C400BE87B7 /* Main.storyboard in Resources */,
+				FF29B4AF1E14031300BE87B7 /* pointer.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF29B47E1E13F1C400BE87B7 /* ViewController.m in Sources */,
+				FF29B4AB1E13F1E300BE87B7 /* ClockView.m in Sources */,
 				FF29B47B1E13F1C400BE87B7 /* AppDelegate.m in Sources */,
 				FF29B4781E13F1C400BE87B7 /* main.m in Sources */,
 			);
